@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    color:#BA7967; 
+}
+.menu a:hover{
+    background-color: #BA7967;
+    color: white;
+}
+.resbtn button{
+    background-color: #BA7967;
+    color: white;  
+    border-color: #BA7967; 
+}
+.resbtn a{
+    color: white; 
+ }
+
+ .resbtn a:hover{
+    color: #BA7967;
+ }
+
+.resbtn button:hover{
+    background-color:white;  
+    color: #BA7967;
+    border-color: #BA7967;  
+}
+
+
+.intro{
+   padding: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border: none;
+}
+
+.introImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foodSlide{
+ text-align: center;
+ padding: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.foodSlide img{
+    height: 600px;
+    object-fit:cover;
+}
+
+.chooseUs{
+    padding: 50px;
+   
+}
+.roundImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roundImg>img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    height: 80px;
+}
+.chooseFav{
+    padding-left: 10px;
+}
+
+.customerFeedback{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.footer{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #BA7967;
+}
+.footer a{
+    color: black;
+}
+
+.footerLink a{
+    display: block;
+}
+
+.aboutUs ,.ourStory{
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .foodMenuCard img{
+    height: 300px;
+    object-fit:cover; 
+ }
+ .foodMenuCard{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ .book{
+    margin: 50px;
+}
+.book  input[type="submit"]{
+    
+      
+        padding-left: 80px;
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 20px;
+        font-size: larger;
+        
+    
+}
+
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  margin-bottom: 60px;
+}
+.formContainer>input,textarea{
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 10px;
+  }
+
+ input[type="submit"]{
+    background-color: #BA7967;
+    color: white;
+    border-color: #BA7967;
+    width: 250px; 
+ }
+
+ input[type="submit"]:hover{
+    background-color:white;  
+    color: #BA7967;
+    
+}
+.contactUs{
+    display: flex;
+}
+.contactIcon{
+    margin:70px;
+    padding-left: 30px;
+    
+}
+.card-header{
+    border:none;
+    font-weight: bold;
+  }
+  .btns{
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signUpFormContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    min-height: 100vh;
+  }
+   .socialMedia{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+   }
+   .socialMedia>a{
+     padding: 5px;
+   }
+   .login{
+     text-align: center;
+   }
+   .pswdIcon{
+     position:relative;
+   }
+   .icon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-right: 7px;
+   }
+  
+  .separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+   .separator hr{
+    width: 50%
+   }
+   .forgot{
+     text-align: right;
+   }
+  

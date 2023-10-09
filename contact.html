@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom&#39;s Restaurant</title>
+    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/restaurant-1024.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid header">
+            <span class="navbar-brand mb-0 h1" style="font-size: 40px;color: #ba7967;"><span><i
+                  class="fa-solid fa-utensils fa-beat-fade fa-lg"></i></span>Mom&#39;s Restaurant</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/index.html">Home</a>
+                <a class="nav-link" href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/about.html">About</a>
+                <a class="nav-link" href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/foodmenu.html">Food Menu</a>
+                <a class="nav-link" href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/booktable.html">Book Table</a>
+                <a class="nav-link" href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/contact.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <h1 style="text-align: center; margin: 30px;">Contact us</h1>
+      <div class="contactUs">
+           
+    
+                <div class="formContainer">
+                <label for="">Your Name(required)</label>
+                <input type="text" name="" value="" id="nameInput" placeholder="Your Name"  onfocusout="nameField()">
+                <div id="nameInputBlock" style="display:none">
+                  Please enter a your name.
+                  </div>
+                <label for="">Your Email(required)</label>
+                <input type="text" name="" value="" id="emailInput" onfocusout="validateEmail()" placeholder="Your Email">
+                <div id="emailHelpBlock"  style="display:none">
+                  Please enter a valid email address.
+                  </div>
+                <label for="">Your Message</label>
+                <textarea name="name" rows="8" cols="80"placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit" onclick="nameField() , validateEmail()">
+            </div>
+        
+            <div class="contactIcon">
+                <div style="display: flex;margin-bottom: 30px;">
+                    <span><i class="fa-solid fa-phone fa-2xl" style="color: #000000;"></i></span>
+                <p style="padding-left: 20px;"><b>Phone: </b>1234567890</p>
+                </div>
+                <div style="display: flex; ">
+                    <span><i class="fa-solid fa-clock fa-2xl" style="color: #000000;"></i></span>
+                    <div>
+                        <p  style="padding-left: 20px;"><b>Opening Hours: </b></p>
+                        <p  style="padding-left: 20px; margin: 0;">Monday &#45; Friday&#58;  7am to 10pm</p>
+                        <p style="padding-left: 20px;"> Saturday &#38; Sunday&#58; 6am to 12pm</p>
+                    </div>
+                 
+                </div>
+                
+               
+            </div>
+              
+
+      </div>
+
+
+
+
+      <div class="footer">
+        <div class="container text-left">
+          <div class="row">
+            <div class="col-sm  footerLink">
+              <h5>Links</h5>
+              <a href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/index.html">Home</a>
+              <a href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/about.html">About</a>
+              <a href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/foodmenu.html">Food Menu</a>
+              <a href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/booktable.html">Book Table</a>
+              <a href="file:///C:/Users/Renjitha/Desktop/FrontEnd%20Project/Restaurant%20Project/contact.html">Contact Us</a>
+            </div>
+            <div class="col-sm">
+              <h5>Contact Us</h5>
+              <p>Contact us anytime <a href="mailto:mom.restaurant@gmail.com">Send Mail</a> </p>
+            </div>
+            <div class="col-sm">
+              <h5>Hours</h5>
+              <p style="margin: 0;">Monday &#45; Friday&#58; 7am to 10pm</p>
+              <p>Saturday &#38; Sunday&#58; 6am to 12pm</p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm">
+              <p style="margin: 0;">&#169;2023 Mom&#39;sRestaurant</p>
+              <a href="https://www.youtube.com/"><span><i class="fa-brands fa-youtube" style="color: #000000;"></i></span></a>
+              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><span><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></span></a>
+              <a href="https://www.facebook.com/"><span><i class="fa-brands fa-facebook" style="color: #000000;"></i></span></a>
+              <a href="https://www.instagram.com/"><span><i class="fa-brands fa-instagram" style="color: #000000;"></i></span></a>
+            </div>
+          </div>
+        </div>
+    
+        <script type="text/javascript" src="contactvalidate.js"></script>
+
+    
+</body>
+</html>
