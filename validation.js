@@ -7,7 +7,7 @@ function validateEmail() {
     const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
       if (!emailInputValue.match(emailPattern)) {
         document.getElementById("emailHelpBlock").style.display = "block";
-        document.getElementById("exampleFormControlInput1").style.border = "1px solid green";
+        document.getElementById("exampleFormControlInput1").style.border = "1px solid red";
         document.getElementById("emailHelpBlock").style.color = "red";
      }else{
         document.getElementById("emailHelpBlock").style.display = "none";
